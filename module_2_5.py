@@ -1,5 +1,3 @@
-import random
-
 def get_matrix(n,m,value):
     matrix = []
     for stroka in range(n):
