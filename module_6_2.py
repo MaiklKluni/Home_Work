@@ -33,7 +33,7 @@ class Sedan(Vehicle):
 
 if __name__ == "__main__":
     # Текущие цвета __COLOR_VARIANTS = ['blue', 'red', 'green', 'black', 'white']
-    vehicle1 = Sedan('Fedos', 'Toyota Mark II', 'blue', 500)
+    vehicle1 = Sedan('Fedos', 'Toyota Mark II',500 , 'blue')
 
     # Изначальные свойства
     vehicle1.print_info()
