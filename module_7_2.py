@@ -10,7 +10,6 @@ def custom_write(file_name, strings):
             key = (i, file.tell())
             slovar[key] = st
             file.write(st + '\n')
-
     return slovar
 
 
