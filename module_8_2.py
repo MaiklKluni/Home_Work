@@ -1,5 +1,6 @@
 def personal_sum(numbers):
-    result, incorrect_data = 0
+    result = 0
+    incorrect_data = 0
     try:
         for i in numbers:
             try:
